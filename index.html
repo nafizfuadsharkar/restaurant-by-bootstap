@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- body part starts here -->
+  <body>
+    <!-- Header part -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap p-3">
+        <div class="container">
+          <a class=" navbar-brand bg-warning" href="#home">PIZZAKHABO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section-1 -->
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>Cholo <br> <span class="text-warning text">Pizzakhabo</span></h1>
+              <h2 class="text-success">Naki, Burger khaba?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="mt-4"><button class="btn btn-outline-warning">Order Now <i class="fas fa-shopping-basket ps-3"></i></button></div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section -->
+    <section class="our-menu p-4 container " id="menu"> 
+      <div class=" text-center">
+        <h3 class="pb-4 section-title text-success p-3">Our Menu</h3>
+        <hr class="hr">
+        <div class="row">
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (1).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (2).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (3).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6 class="mt-3">Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (4).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (1).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (2).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (3).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6 class="mt-3">Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (4).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (1).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (2).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (3).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6 class="mt-3">Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-2 mb-4 mb-lg-0 mt-3">
+            <div class="card">
+              <div class="cat-image">
+                <a class="link_catagory_product" href="#">
+                  <img src="./img/por (4).jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="cat-title">
+                <h6>Lorem ipsum</h6>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="btn btn-outline-warning mb-1">More info</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- about section  -->
+    <section class="container" id="about">
+      <div class="section-title">
+        <h3 class="text-success text-center">About Us</h3>
+        <hr class="hr ms-auto">
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <h5 class="mt-3">Basic Info</h5>
+          <div class="basic-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum magnam possimus quia dolores mollitia, corporis, exercitationem soluta magni culpa voluptate corrupti, commodi eos! Eos officia non alias. Cupiditate facilis quasi vero sed dolores ipsum est rem dolore quae, obcaecati cumque harum sapiente! Veniam dolorum consequuntur magni non autem facere repellat maxime corporis dolorem itaque animi explicabo deleniti vitae ipsa, alias inventore, maiores eveniet repudiandae odio sit est. Blanditiis dolorum iusto quia aspernatur quibusdam labore dicta, ad dolorem sequi provident tempora non consequuntur voluptatum libero, nihil nisi, vitae qui accusantium? Corporis accusantium modi suscipit. Vitae, eveniet. Repellat magni consequatur commodi optio doloremque minima molestias provident, eveniet saepe quibusdam, tenetur deserunt.
+          </div>
+        </div>
+        <div class="col-lg-6"><img src="./img/land (3).jpg" width="80%"  class="img-fluid about-pic" alt=""></div>
+      </div>
+    </section>
+
+    <!-- contact me section -->
+    <section id="contact" class="container">
+      <div class="section-title">
+        <h3 class="text-success text-center">Contact Us</h3>
+        <hr class="hr ms-auto">
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form action="mailto:sharkarnafiz@gmail.com" method="post" enctype="text/plain" class="was-validated">
+            <div class="form-group m-1">
+              <label for="fullname">Fullname</label>
+              <input type="text" class="form-control" name="fullname" required>
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback text-white">Enter fullname before submitting</div>
+            </div>
+
+            <div class="form-group m-1">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" required>
+            </div>
+            <div class="form-group m-1">
+              <label for="number">Contact no.</label>
+              <input type="number" class="form-control" name="number" required>
+            </div>
+
+            <div class="form-group m-1">
+              <label for="message">Message</label>
+              <textarea style="resize: none" name="" id="" class="form-control" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group text-center m-2">
+              <input type="submit" class="btn btn-primary mr-3" value="Submit">
+              <input type="reset" class="btn btn-primary" value="Reset">
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+      
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
